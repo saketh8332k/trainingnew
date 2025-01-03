@@ -1,0 +1,24 @@
+GIT-HUB:
+
+-Create an git-hub account
+-create a new repository 
+-in that click on README clickbox
+-then click on create repositry
+-after creating open the repo
+-on the top click on code and copy the url"https://github.com/Saida1925/0364.git"
+-open the vs code
+-and open terminal in vs code
+-intilize git in a terminal 'git init'
+-next configure username and email to git hub
+	git config --global user.name"user-name"
+	git config --global user.email"email"
+-add remote url to local repo
+	git remote add origin https://github.com/Saida1925/0364.git
+
+-convert untracked files to trakced files
+	git add.
+	git commit -m "my new project"
+
+-Then we need to push to github
+
+	git push -u origin master
