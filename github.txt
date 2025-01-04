@@ -22,3 +22,14 @@ GIT-HUB:
 -Then we need to push to github
 
 	git push -u origin master
+        // u = unstream
+
+
+merging two or more baranches;
+-create a branch.
+-git branch branchname.
+       -git branch //to check branch is created.
+       -git checkout branchname //to shift another branch
+       -git push -u origin branchname
+while merging we should be in the master branch
+      -git merge branchname //cmd to merge
