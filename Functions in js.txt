@@ -1,0 +1,76 @@
+Functions in js
+
+*functions are first citizen in js
+*they are objects in js
+
+types:
+1.Fuction declaration statement./pure function/named function.
+2.function expression.
+3.higher order function, call-back fuction.
+4.arrow function.
+5.nested function.
+6.IIFE(Immediate invoking function expression
+
+1.Fuction declaration statement/pure function/named function:
+-set of instructions or block of code used to perform specific task
+syntax:-
+  
+  function function_name(parameters,...)
+{  \
+      \
+        local scope
+      /
+    /
+}
+calling a function:
+function_name(arguments,..)
+                            |
+                          \|/
+                         data/values(data-types)
+return keyword:
+stops the execution of the function
+gives control to caller
+ 
+hoisting function:
+we can call a functi0on before function declaration
+
+Advantage of using functions in js:
+code reusability:-write once call it multiple times.
+
+1.create a function that perform arithmetic operation and input should be taken from end user. 
+2.multiple operations.
+
+
+
+
+Function expression: "Assigning function as a value to one variable"
+*It is used to perform specific task.
+*uses anonymous function. and treats it as a value and stores it in a variable like below
+diff: hoisting is not possible here
+
+e.g:-
+let c = function()---->anonymous function
+{
+console.log("hello");
+}
+
+anonymous function: "A function without a name"
+e.g:-
+function()
+{
+//code
+}
+
+
+function programming:
+1.higher order function.
+2.Call back function
+
+it is used to perform generic(multiple) task
+it can be created using function declaration statetment, function expression, arrow function.
+
+1.higher order function(HOF):
+A function which upsets another function as an argument is called HOF.
+
+2.Call back function:
+A function which is passed as an argument to anotehr HOF is called callback function.

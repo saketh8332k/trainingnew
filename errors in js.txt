@@ -1,0 +1,6 @@
+errors in js
+
+1.syntax error
+2.reference error
+3.range error
+4.uncaught error/type error

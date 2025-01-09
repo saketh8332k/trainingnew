@@ -1,0 +1,32 @@
+operators:
+
+It is a predefined symbol used to perform specific operation.
+
+Assignment operator:
+1.=
+2.-=
+3*=
+4./=
+5.%=
+
+logical operators:
+AND(&&)
+OR(||)
+NOT(!)
+
+relational:
+1.>
+2.<
+3.<=
+4.>=
+5.==(equals to)-->checks only value but not datatype.
+  5 == 5 //true
+  5 == "5" //true
+
+6.===(strictly equals to)-->checks both value and datatype--->used for validations in js.
+  5 === 5 //true
+  5 ==="5" //false
+
+ternary operators:(3 operands)
+ syntax:  condition ? true statement : false statement
+

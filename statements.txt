@@ -1,0 +1,149 @@
+statements:
+
+conditional:
+
+simple-If
+If-else
+else-if ladder
+switch
+
+1.if(condition)-->accepts only trye statement
+{
+
+}
+
+2.if-else:
+if(condtion)
+{
+
+}
+else
+{
+
+}
+
+3.else-if ladder:
+
+if(condition)
+{ 
+}
+esle-if(condition)
+{
+}
+else
+{
+}
+
+4.switch(condition){
+  case1:{
+  }
+  break;
+  case2:{
+  }
+  break;
+  default{
+  }
+}
+
+e.g:
+let n = 1;
+switch(n){
+case 1:
+{
+console.log("sunday");
+}
+break;
+case 2:
+{
+console.log("Monday");
+}
+break;
+case 3:
+{
+console.log("tuesday");
+}
+break;
+default{
+console.log("invalid")
+}
+}
+
+-if break statement isn't there it prints another cases also.
+
+
+
+
+----------------------------------------------------------------------------------
+
+looping statements: iterate based on the condition
+
+while    - 0 default iteration
+do-while - 1 default iteration
+for
+for-each
+
+
+
+1)for loop:
+syntax:
+for(initialization;conditon;increment/decrement){
+statement
+}
+
+e.g:-
+for(let i= 0;i<=5;i++){
+console.log
+}
+//1 2 3 4 5 
+
+2)while loop: iterates until condition is false
+syntax:
+while(condition){
+statement
+}
+
+e.g:-
+let  = 1;
+while(n<=5){
+console.log(n)
+n++
+}
+
+
+3)do-While: it iterates set of instructions and then checks condition
+
+syntax:
+do{
+statement
+}while(condition)
+
+e.g:-
+let m = 1;
+do{
+console.log(m)
+m++
+}
+while(m<=5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

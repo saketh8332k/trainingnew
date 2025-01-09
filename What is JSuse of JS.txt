@@ -1,0 +1,10 @@
+What is JS/use of JS?:
+
+It is a object based programming language used to convert static page into dynamic page
+
+datatypes:
+ value used in progarmming language.
+ -primitive datatypes:
+   -number,string,boolean,undefined,null,big-int
+ -Non-primitive datatypes:
+   -class,object,array,functions,map,sets

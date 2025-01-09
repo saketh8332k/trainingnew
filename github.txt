@@ -5,7 +5,7 @@ GIT-HUB:
 -in that click on README clickbox
 -then click on create repositry
 -after creating open the repo
--on the top click on code and copy the url"https://github.com/Saida1925/0364.git"
+-on the top click on code and copy the url"https://github.com/saketh8332k/trainingnew.git"
 -open the vs code
 -and open terminal in vs code
 -intilize git in a terminal 'git init'
@@ -13,7 +13,7 @@ GIT-HUB:
 	git config --global user.name"user-name"
 	git config --global user.email"email"
 -add remote url to local repo
-	git remote add origin https://github.com/Saida1925/0364.git
+	git remote add origin https://github.com/saketh8332k/trainingnew.git
 
 -convert untracked files to trakced files
 	git add.
